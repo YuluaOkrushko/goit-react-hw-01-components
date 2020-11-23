@@ -1,0 +1,45 @@
+.upper_wrapper {
+  margin: 0 auto;
+  background-color: rgb(234, 199, 196);
+  width: 400px;
+  padding: 40px 50px;
+}
+.wrapper {
+  width: 268px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+.title {
+  margin: 0;
+  padding: 30px 0;
+  text-transform: uppercase;
+  color: rgb(78, 83, 87);
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+}
+.li {
+  width: 25%;
+  /* background-color: rgb(229, 75, 99); */
+}
+/* .id-1 {
+    background-color: rgb(81, 255, 0);
+  }
+   */
+.label {
+  color: rgb(255, 255, 255);
+  padding-top: 2px;
+  display: block;
+  padding: 8px;
+}
+.percentage {
+  color: rgb(255, 255, 255);
+  margin: 0;
+  font-size: 18px;
+}

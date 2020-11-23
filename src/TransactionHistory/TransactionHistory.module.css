@@ -1,0 +1,26 @@
+table {
+    width: 870px;
+    margin: 0 auto;
+    box-shadow: 3px 3px 10px -2px rgba(138, 135, 138, 1);
+    border-collapse: collapse;
+    text-align: center;
+  }
+  table,
+  td,
+  th {
+    border: 1px solid rgb(231, 226, 242);
+  }
+  td,
+  th {
+    padding: 3px;
+    width: 30px;
+    height: 35px;
+  }
+  th {
+    background-color: rgb(234, 199, 196);
+  }
+  .name {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 20px;
+  }

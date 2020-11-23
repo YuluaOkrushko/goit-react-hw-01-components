@@ -1,0 +1,38 @@
+.wrapper {
+    width: 500px;
+    margin: 0 auto;
+    padding: 1px 1px;
+    background-color: rgb(234, 199, 196);
+  }
+  .wrapper_list {
+    list-style: none;
+    width: 400px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+  }
+  .list {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.33);
+  }
+  .offline {
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+  }
+  .online {
+    composes: offline;
+    background-color: rgb(0, 255, 0);
+  }
+  .image {
+    width: 100px;
+    border-radius: 5px;
+    margin: 10px 20px;
+  }
+  .name {
+    font-size: 27px;
+  }
